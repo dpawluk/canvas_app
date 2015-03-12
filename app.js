@@ -1,4 +1,5 @@
 (function() {
+  /*global atob:true, Uint8Array: true, Blob: true*/
 
   return {
     canvas: this.$("#sketchpad")[0],
