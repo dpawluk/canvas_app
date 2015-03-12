@@ -1,0 +1,9 @@
+canvas#sketchpad {
+	border: 1px solid black;
+	position: relative;
+	overflow: none;
+}
+
+footer#myapp_footer {
+	border: none;
+}

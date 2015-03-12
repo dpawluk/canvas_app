@@ -1,0 +1,5 @@
+<canvas id="sketchpad" width="320px" height="320px">
+
+</canvas>
+<button id="clear_sketch">Clear</button>
+<button id="save_sketch">Save</button>
