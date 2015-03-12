@@ -43,17 +43,15 @@
       context.strokeStyle = "#000000";
       context.lineWidth = 1;
       var lastMousePoint = {x:0, y:0};
-      setTimeout(_.bind(function() {
         this.$(canvas).on('mousedown',  _.bind(function(event){
           this.onMouseDown(event);
         }, this));  
-      }, this), 1000);
 
     },
 
     onMouseDown: function(event) {
         var canvas = this.canvas;
-        
+        console.log('mouse is down!');
         this.$(canvas).on('mousemove', _.bind(function(e){
           this.onMouseMove(e);
         }, this));
